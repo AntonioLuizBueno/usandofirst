@@ -1,0 +1,32 @@
+/*style.css*/
+#p1:first-of-type {
+    background-color: rgb(184, 49, 11);
+    color: rgba(229, 233, 237, 0.934);
+}
+#p2::first-line {
+    background-color: chartreuse;
+    font-variant: small-caps;
+    color: white;
+}
+#p3::first-letter {
+    font-size: 200%;
+    color: blue;
+}
+
+#p4 {
+    background-color: rgb(184, 49, 11); 
+    color: rgba(229, 233, 237, 0.934); 
+    font-variant: small-caps; 
+    padding: 10px; 
+    border: 2px solid rgba(229, 233, 237, 0.934); 
+}
+
+#p4::first-line {
+    background-color: chartreuse; 
+    color: white; 
+}
+
+#p4::first-letter {
+    font-size: 200%; 
+    color: blue; 
+}
